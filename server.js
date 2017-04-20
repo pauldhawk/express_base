@@ -6,7 +6,7 @@ var app = express();
 
 /// static vars
 let env = process.env.NODE_ENV || 'development';
-let port = 3000;
+let port = 80;
 let node_path = '../otto-angular/node_modules';
 let dist_path = '../otto-angular/dist';
 let index_path = dist_path + '/index.html';
